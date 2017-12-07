@@ -241,3 +241,43 @@
     margin-left: 1rem;
     color: #333333;
 }
+
+.testing_progress_box {
+    position: relative;
+    height: 7.7rem;
+    border-bottom: 2px solid #EAEAEA;
+    padding-top: 3rem;
+}
+
+.progress {
+    background-color: #64A2F0;
+    height: 0.7rem;
+    border-radius: 10px;
+}
+
+.progress_inner {
+    position: relative;
+    background-color: #E8CB35;
+    height: 100%;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.testing_progress {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.progress_inner .progress_arrow {
+    position: absolute;
+    right: -14px;
+    bottom: -40px;
+    text-align: center;
+}
+
+.progress_inner .progress_arrow .per_text {
+    color: #5599EE;
+    font-weight: bold;
+    font-size: 1.4rem;
+}

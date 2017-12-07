@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../css/common_mobile.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- js -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class='page_body home_page'>
+        <div class='home_content scroll'>
+            <!-- 测试 -->
+            <div class='test_content' style='display: none;'>
+                <img class='home_banner' src="../img/5.png">
+                <div class='home_title'>
+                    <div class='dot'></div>
+                    <p class='text'>全部测评</p>
+                </div>
+                <div class='test_list'>
+                    <div class='test_item'>
+                        <p class='title'>创业潜能测试</p>
+                        <div class='img_box'>
+                            <img src="../img/10.png">
+                            <p class='state'><span class='state_txt'>创业潜能问卷</span><span class='state_txt'>共23题</span><span class='state_txt'>已完成0题</span></p>
+                        </div>
+                    </div>
+                    <div class='test_item'>
+                        <p class='title'>创业潜能测试</p>
+                        <div class='img_box'>
+                            <img src="../img/10.png">
+                            <p class='state'><span class='state_txt'>创业潜能问卷</span><span class='state_txt'>共23题</span><span class='state_txt'>已完成0题</span></p>
+                        </div>
+                    </div>
+                    <div class='test_item'>
+                        <p class='title'>创业潜能测试</p>
+                        <div class='img_box'>
+                            <img src="../img/10.png">
+                            <p class='state'><span class='state_txt'>创业潜能问卷</span><span class='state_txt'>共23题</span><span class='state_txt'>已完成0题</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 个人中心 -->
+            <div class='percenal_content'>
+                <div class='top_box webkit_box webkit_horizontal webkit_box_middle'>
+                    <img class='head_img ' src="../img/test.jpg">
+                    <div class=' person_info'>
+                        <p>我的昵称</p>
+                        <p style='margin-top: 1rem;'>13333333333</p>
+                    </div>
+                </div>
+                <div class='personal_items'>
+                    <div class="item webkit_box webkit_horizontal webkit_box_middle">
+                        <img src="../img/3.png">
+                        <p class='text'>我的测评</p>
+                        <div class='webkit_box_fill'></div>
+                        <img src="../img/2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='home_footer clx'>
+            <div class='footer_item left font_0 align_center'>
+                <span class='inline_block width_0 height_full vertical_middle'></span>
+                <div class='inline_block vertical_middle'>
+                    <img class='active_img' src="../img/6.png" alt="">
+                    <img class='def_img' src="../img/7.png" alt="">
+                    <p class='text'>测评</p>
+                </div>
+            </div>
+            <div class='footer_item right font_0 align_center'>
+                <span class='inline_block width_0 height_full vertical_middle'></span>
+                <div class='inline_block vertical_middle'>
+                    <img class='active_img' src="../img/9.png" alt="">
+                    <img class='def_img' src="../img/8.png" alt="">
+                    <p class='text'>我的</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+$('.footer_item').click(function() {
+    $(this).addClass('active');
+    $(this).siblings().removeClass('active');
+});
+
+</script>
+
+</html>

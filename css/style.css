@@ -1,0 +1,243 @@
+.login_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/12.png');
+    background-size: 100% 100%;
+}
+
+.logo_box {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.logo_box img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.login_input_box {
+    position: relative;
+    margin-top: 1.5rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.input_box_1 {
+    position: relative;
+    height: 5rem;
+    border-bottom: 1px solid #666666;
+}
+
+.input_box_1 input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/13.png);
+    background-size: 25px 25px;
+    background-position: 1rem 1.4rem;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #999999;
+    padding-left: 4rem;
+    font-size: 1.4rem;
+}
+
+.input_box_1 input.login_name {
+    background-image: url(../img/13.png);
+}
+
+.input_box_1 input.login_pwd {
+    background-image: url(../img/14.png);
+}
+
+.btn_getCode {
+    display: block;
+    color: #5599EE;
+    font-size: 1.6rem;
+}
+
+.login_tip_box {
+    color: #666666;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.login_tip_box .left {
+    padding-left: 1rem;
+}
+
+.btn_login {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    background-color: #5599EE;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-top: 4.5rem;
+    border-radius: 6px;
+}
+
+.home_content {
+    height: calc(100% - 5rem);
+    height: -webkit-calc(100% - 5rem);
+}
+
+.home_footer {
+    position: relative;
+    height: 5rem;
+    border-top: 1px solid #D1D1D1;
+}
+
+.home_footer .left,
+.home_footer .right {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.home_footer .text {
+    font-size: 1.4rem;
+    color: #8A8A8A;
+}
+
+.home_footer img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.home_footer img.active_img {
+    display: none;
+}
+
+.home_footer .footer_item.active .text {
+    color: #5599EE;
+}
+
+.home_footer .footer_item.active img.active_img {
+    display: block;
+}
+
+.home_footer .footer_item.active img.def_img {
+    display: none;
+}
+
+
+.home_banner {
+    width: 100%;
+    display: block;
+}
+
+.home_title {
+    padding: 1rem;
+    font-size: 0;
+    border-top: 11px solid #F2F8FF;
+    border-bottom: 1px solid #999999;
+}
+
+.home_title .dot {
+    width: 5px;
+    height: 17px;
+    display: inline-block;
+    background-color: #5599EE;
+    vertical-align: middle;
+}
+
+.home_title .text {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #000;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+
+.test_item {
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #999999;
+}
+
+.test_item:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.test_item:nth-child(1) {
+    border-bottom: 1px solid #999999;
+}
+
+.test_item .title {
+    font-size: 1.6rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.test_item .img_box {
+    position: relative;
+    height: 21rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.test_item .img_box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.test_item .img_box .state {
+    display: block;
+    width: 100%;
+    height: 4.8rem;
+    line-height: 4.8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.test_item .img_box .state .state_txt {
+    margin-right: 1rem;
+}
+
+.percenal_content .top_box {
+    height: 17rem;
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.percenal_content .top_box .head_img {
+    width: 10rem;
+    height: 10rem;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.percenal_content .top_box .person_info {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+}
+
+.personal_items .item {
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid #D6D8DA;
+}
+
+.personal_items .item img {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}
+
+.personal_items .item .text {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    color: #333333;
+}
